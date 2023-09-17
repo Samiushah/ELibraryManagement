@@ -98,8 +98,8 @@
 
                                 <label>Publish Date</label>
                                 <div class="form-group">
-                                        <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
-                                            placeholder="Date" TextMode="Date"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
+                                        placeholder="Date" TextMode="Date"></asp:TextBox>
                                 </div>
                             </div>
 
@@ -107,32 +107,32 @@
                                 <label>Genre</label>
                                 <div class="form-group">
                                     <asp:ListBox ID="ListBox1" CssClass="form-control" runat="server" SelectionMode="Multiple" Rows="5">
-<asp:ListItem Text="Action" Value="Action" />
-                              <asp:ListItem Text="Adventure" Value="Adventure" />
-                              <asp:ListItem Text="Comic Book" Value="Comic Book" />
-                              <asp:ListItem Text="Self Help" Value="Self Help" />
-                              <asp:ListItem Text="Motivation" Value="Motivation" />
-                              <asp:ListItem Text="Healthy Living" Value="Healthy Living" />
-                              <asp:ListItem Text="Wellness" Value="Wellness" />
-                              <asp:ListItem Text="Crime" Value="Crime" />
-                              <asp:ListItem Text="Drama" Value="Drama" />
-                              <asp:ListItem Text="Fantasy" Value="Fantasy" />
-                              <asp:ListItem Text="Horror" Value="Horror" />
-                              <asp:ListItem Text="Poetry" Value="Poetry" />
-                              <asp:ListItem Text="Personal Development" Value="Personal Development" />
-                              <asp:ListItem Text="Romance" Value="Romance" />
-                              <asp:ListItem Text="Science Fiction" Value="Science Fiction" />
-                              <asp:ListItem Text="Suspense" Value="Suspense" />
-                              <asp:ListItem Text="Thriller" Value="Thriller" />
-                              <asp:ListItem Text="Art" Value="Art" />
-                              <asp:ListItem Text="Autobiography" Value="Autobiography" />
-                              <asp:ListItem Text="Encyclopedia" Value="Encyclopedia" />
-                              <asp:ListItem Text="Health" Value="Health" />
-                              <asp:ListItem Text="History" Value="History" />
-                              <asp:ListItem Text="Math" Value="Math" />
-                              <asp:ListItem Text="Textbook" Value="Textbook" />
-                              <asp:ListItem Text="Science" Value="Science" />
-                              <asp:ListItem Text="Travel" Value="Travel" />
+                                        <asp:ListItem Text="Action" Value="Action" />
+                                        <asp:ListItem Text="Adventure" Value="Adventure" />
+                                        <asp:ListItem Text="Comic Book" Value="Comic Book" />
+                                        <asp:ListItem Text="Self Help" Value="Self Help" />
+                                        <asp:ListItem Text="Motivation" Value="Motivation" />
+                                        <asp:ListItem Text="Healthy Living" Value="Healthy Living" />
+                                        <asp:ListItem Text="Wellness" Value="Wellness" />
+                                        <asp:ListItem Text="Crime" Value="Crime" />
+                                        <asp:ListItem Text="Drama" Value="Drama" />
+                                        <asp:ListItem Text="Fantasy" Value="Fantasy" />
+                                        <asp:ListItem Text="Horror" Value="Horror" />
+                                        <asp:ListItem Text="Poetry" Value="Poetry" />
+                                        <asp:ListItem Text="Personal Development" Value="Personal Development" />
+                                        <asp:ListItem Text="Romance" Value="Romance" />
+                                        <asp:ListItem Text="Science Fiction" Value="Science Fiction" />
+                                        <asp:ListItem Text="Suspense" Value="Suspense" />
+                                        <asp:ListItem Text="Thriller" Value="Thriller" />
+                                        <asp:ListItem Text="Art" Value="Art" />
+                                        <asp:ListItem Text="Autobiography" Value="Autobiography" />
+                                        <asp:ListItem Text="Encyclopedia" Value="Encyclopedia" />
+                                        <asp:ListItem Text="Health" Value="Health" />
+                                        <asp:ListItem Text="History" Value="History" />
+                                        <asp:ListItem Text="Math" Value="Math" />
+                                        <asp:ListItem Text="Textbook" Value="Textbook" />
+                                        <asp:ListItem Text="Science" Value="Science" />
+                                        <asp:ListItem Text="Travel" Value="Travel" />
                                     </asp:ListBox>
                                 </div>
                             </div>
@@ -161,8 +161,8 @@
                             <div class="col-md-4">
                                 <label>Pages</label>
                                 <div class="form-group">
-                                        <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
-                                            placeholder="Pages" TextMode="Number"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
+                                        placeholder="Pages" TextMode="Number"></asp:TextBox>
                                 </div>
                             </div>
 
@@ -181,8 +181,8 @@
                                 <label>Current Stock</label>
                                 <div class="form-group">
                                     <div class="input-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox7" runat="server"
-                                        placeholder="Current Stock" TextMode="Number" ReadOnly="true"></asp:TextBox>
+                                        <asp:TextBox CssClass="form-control" ID="TextBox7" runat="server"
+                                            placeholder="Current Stock" TextMode="Number" ReadOnly="true"></asp:TextBox>
                                     </div>
                                 </div>
                             </div>

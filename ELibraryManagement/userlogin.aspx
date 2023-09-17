@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userlogin.aspx.cs" Inherits="ELibraryManagement.userlogin" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -13,7 +14,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                    <img src="imgs/generaluser.png" width="150"/>
+                                    <img src="imgs/generaluser.png" width="150" />
                                 </center>
                             </div>
                         </div>
@@ -25,7 +26,7 @@
                                 </center>
                             </div>
                         </div>
-                        
+
                         <div class="row">
                             <div class="col">
                                 <hr />
@@ -37,7 +38,7 @@
 
                                 <label>Member ID</label>
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" 
+                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
                                         placeholder="Member ID"></asp:TextBox>
                                 </div>
 
@@ -46,15 +47,16 @@
                                     <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
                                         placeholder="Password" TextMode="Password"></asp:TextBox>
                                 </div>
-    
+
                                 <div class="form-group">
-                                    <asp:Button ID="Button1" runat="server" Text="Login" 
-                                        class="btn btn-success btn-block btn-lg"/>
+                                    <asp:Button ID="Button1" runat="server" Text="Login"
+                                        class="btn btn-success btn-block btn-lg" />
                                 </div>
 
                                 <div class="form-group">
-                                    <a href="usersignup.aspx"><input id="Button2" type="button" value="Sign Up" 
-                                        class="btn btn-info btn-block btn-lg"/></a>
+                                    <a href="usersignup.aspx">
+                                        <input id="Button2" type="button" value="Sign Up"
+                                            class="btn btn-info btn-block btn-lg" /></a>
                                 </div>
 
                             </div>
@@ -64,7 +66,8 @@
                     </div>
                 </div>
 
-                <a href="homepage.aspx"> << Back to Home</a><br /><br />
+                <a href="homepage.aspx"><< Back to Home</a><br />
+                <br />
 
             </div>
         </div>

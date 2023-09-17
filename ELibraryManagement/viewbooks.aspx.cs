@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ELibraryManagement
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class viewbooks : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
