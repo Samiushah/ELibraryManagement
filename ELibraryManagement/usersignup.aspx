@@ -41,7 +41,7 @@
                                 <label>Full Name</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
                                         placeholder="Full Name"></asp:TextBox>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@
                                 <label>Date of Birth</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
                                         placeholder="Date of Birth" TextMode="Date"></asp:TextBox>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                 <label>Contact No.</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server"
                                         placeholder="Contact No." TextMode="Phone"></asp:TextBox>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                 <label>Email ID</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox6" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server"
                                         placeholder="Email ID" TextMode="Email"></asp:TextBox>
                                 </div>
                             </div>
@@ -93,10 +93,10 @@
                                 <div class="form-group">
                                     <asp:DropDownList CssClass="form-control" ID="DropDownList1" runat="server">
                                         <asp:ListItem Text="Select" Value="select"></asp:ListItem>
-                                        <asp:ListItem Text="Sindh" Value="select"></asp:ListItem>
-                                        <asp:ListItem Text="Punjab" Value="select"></asp:ListItem>
-                                        <asp:ListItem Text="Balochistan" Value="select"></asp:ListItem>
-                                        <asp:ListItem Text="KPK" Value="select"></asp:ListItem>
+                                        <asp:ListItem Text="Sindh" Value="Sindh"></asp:ListItem>
+                                        <asp:ListItem Text="Punjab" Value="Punjab"></asp:ListItem>
+                                        <asp:ListItem Text="Balochistan" Value="Balochistan"></asp:ListItem>
+                                        <asp:ListItem Text="KPK" Value="KPK"></asp:ListItem>
                                     </asp:DropDownList>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@
                                 <label>City</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server"
                                         placeholder="City"></asp:TextBox>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                                 <label>Pincode</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox7" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox6" runat="server"
                                         placeholder="Pincode" TextMode="Number"></asp:TextBox>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                                 <label>Full Address</label>
 
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server"
+                                    <asp:TextBox CssClass="form-control" ID="TextBox7" runat="server"
                                         placeholder="Full Address" TextMode="MultiLine" Rows="2"></asp:TextBox>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
 
                                 <div class="form-group">
                                     <asp:Button ID="Button1" runat="server" Text="Signup"
-                                        class="btn btn-success btn-block btn-lg" />
+                                        class="btn btn-success btn-block btn-lg" OnClick="Button1_Click" />
                                 </div>
 
                             </div>
